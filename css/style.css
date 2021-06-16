@@ -646,7 +646,7 @@ ul.costomer li a {
      cursor: pointer;
      font-size: 30px;
      line-height: 29px;
-     color: #41c365;
+     color: #FF9999;
 }
 
 .asked_main .ask_box {
@@ -657,7 +657,7 @@ ul.costomer li a {
 
 .simpaly {
      padding: 10px 10px 10px 20px;
-     border: #41c365 solid 2px;
+     border: #FF9999 solid 2px;
      margin-bottom: 20px;
 }
 
@@ -674,26 +674,15 @@ ul.costomer li a {
 .slider {
      font: 1.1em 'News Cycle', sans-serif;
      padding: 1%;
-     background: #999;
      color: #fff;
      margin-bottom: 1%;
-     span {
-          margin-right: 0.3%;
-     }
-     a {
-          text-decoration: none;
-          color: #fff;
-     }
 }
 
 .content {
      font: 1em 'News Cycle', sans-serif;
      padding: 1%;
-     p {
-          margin-bottom: 1%;
-     }
 }
-
+.rosadotext{color: #E6533F;}
 
 /** end Asked section **/
 
@@ -748,7 +737,7 @@ ul.costomer li a {
 .contact .main_form .send {
      font-size: 16px;
      transition: ease-in all 0.5s;
-     background-color: #000;
+     background-color: #FF9999;
      color: #fff;
      padding: 12px 70px;
      margin: 0 auto;
@@ -756,7 +745,7 @@ ul.costomer li a {
 }
 
 .contact .main_form .send:hover {
-     background-color: #41c365;
+     background-color: #E6533F;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -792,8 +781,8 @@ ul.costomer li a {
 .cont a {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #fff;
-     color: #41c365;
+     background-color: #FFB441;
+     color: #fff;
      width: 100%;
      max-width: 275px;
      padding: 7px 0px;
@@ -802,9 +791,9 @@ ul.costomer li a {
 }
 
 .cont a:hover {
-     background-color: #41c365;
+     background-color: #fff;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #FFB441;
 }
 
 
