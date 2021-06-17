@@ -445,7 +445,7 @@ ul.costomer li a {
 
 .weare {
      margin-top: 70px;
-     background: #FFBBBB;
+     background: linear-gradient(135deg,#ffffff,#FFBBBB);
      font-family: Poppins;
      padding: 80px 0;
      border-bottom-left-radius: 40px;
@@ -492,7 +492,7 @@ ul.costomer li a {
      background: #eff2f8;
  }
  #styleconteinerteam{
-     background-color: #ffAAAA;
+     background: linear-gradient(143deg, #FFF7F7, #ffAAAA);
      padding-top: 15px;
      padding-bottom: 15px;
      border-bottom-left-radius: 25px;
@@ -573,14 +573,15 @@ ul.costomer li a {
 }
 
 .owl-dot.active {
-     background: #1f1716 !important;
+     background: #E6533F !important;
 }
 
 .item {
      text-align: center;
-     background: #3fbc61;
+     background: #FFB441;
      border-radius: 20px;
      padding: 20px;
+     height: 375px;
 }
 
 .item span {
@@ -588,7 +589,6 @@ ul.costomer li a {
      width: 50px;
      height: 50px;
      color: #3fbc61;
-     ff;
      display: inline-block;
      border-radius: 30px;
 }
@@ -597,13 +597,16 @@ ul.costomer li a {
      font-size: 25px;
      line-height: 29px;
      padding: 10px 10px 10px 10px;
-     color: #fff;
+     color: #E6533F;
      text-transform: uppercase;
+     font-weight: 900;
 }
 
 .item p {
      padding: 0px 10px 10px 10px;
-     color: #fff;
+     color: #E6533F;
+     font-size: 20px;
+     font-weight: 900;
 }
 
 .owl-nav {
@@ -616,14 +619,39 @@ ul.costomer li a {
 }
 
 .owl-dot {
-     background: #41c365 !important;
+     background: #FFB441 !important;
      width: 25px;
      height: 25px;
      border-radius: 25px;
      margin: 0px 5px;
 }
-
-
+.ViewDelivery{border-radius: 25px;height: 235px;}
+#hover{
+     display: inline-block;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-property: transform;
+     transition-property: transform;
+     -webkit-transform: translateZ(0);
+     transform: translateZ(0);
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   }
+#hover:hover{
+     -webkit-transform: translateY(-12px);
+     transform: translateY(-12px);
+     -webkit-animation-name: hover;
+     animation-name: hover;
+     -webkit-animation-duration: 1.5s;
+     animation-duration: 1.5s;
+     -webkit-animation-delay: 0.3s;
+     animation-delay: 0.3s;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+     animation-direction: alternate;
+}
 /** end testimonial section **/
 
 
@@ -697,7 +725,7 @@ ul.costomer li a {
 .contact {
      padding: 90px 0px;
      font-family: Poppins;
-     background: url(../images/contact_bg.jpg);
+     background: url(../images/contact_bg_formas.jpg);
      background-repeat: no-repeat;
      background-size: cover;
 }
