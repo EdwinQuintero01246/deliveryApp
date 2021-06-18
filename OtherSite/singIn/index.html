@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing In</title>
+    <link rel="stylesheet" href="../../css/Stylelogin.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" id="formpanel">
+				<a href="../login/index.html" class="button scrolly">Inicio Sessión</a>
+				<span class="contact100-form-title">
+					Registrarse 
+				</span>
+				<!--div class="container">
+					<div class="row">
+						<div class="form-check col-6">
+							<input id="Color-Check" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+							<label class="form-check-label" for="flexRadioDefault1">
+							  Personal
+							</label>
+						</div>
+						<div class="form-check col-6">
+							<input id="Color-Check" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+							<label class="form-check-label" for="flexRadioDefault2">
+							  Empresarial
+							</label>
+						</div>
+
+					</div>
+				</div-->
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<label class="label-input100" for="name">Nombre Completo</label>
+					<input id="nameUser" class="input100" type="text" name="name" placeholder="Enter your name...">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<label class="label-input100" for="email">Email Address</label>
+					<input id="email" class="input100" type="text" name="email" placeholder="Enter your email...">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<label class="label-input100" for="password">Contraseña</label>
+					<input id="passwordI" onchange="HabilitarPassword()" class="input100" type="password" name="password" placeholder="password">
+					<span class="focus-input100"></span>
+					<a href=""></i></a>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<label class="label-input100" for="password">confirme Contraseña</label>
+					<input id="passwordII" onchange="HabilitarPassword()" class="input100" type="password" name="password" placeholder="password">
+					<span class="focus-input100"></span>
+				</div>
+				<div>
+					<button id="buttonPassword1" onclick="Passwordvalidet(1)" style=" margin-left: auto; display: block; "><i class="col-2 fa fa-eye"></i></button>
+					<button id="buttonPassword2" onclick="Passwordvalidet(2)" style=" margin-left: auto; display: none; "><i class="col-2 fa fa-eye-slash" aria-hidden="true"></i></button>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Description is required">
+					<label class="label-input100" for="message">Descripción de su perfil</label>
+					<textarea id="message" class="input100" name="message" placeholder="Write your description here, for your profile wall"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button onclick="SendNewUserNor()" class="contact100-form-btn" id="SendNewUser">
+						Enviar
+					</button>
+				</div>
+
+				<div class="contact100-form-social flex-c-m">
+					<a href="#" class="contact100-form-social-item flex-c-m bg1 m-r-5">
+						<i class="fa fa-facebook-f" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="contact100-form-social-item flex-c-m bg2 m-r-5">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="contact100-form-social-item flex-c-m bg3">
+						<i class="fa fa-youtube-play" aria-hidden="true"></i>
+					</a>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" id="divPanel" style="background-image: url('../../images/bg-01.jpg');">
+                <div class="col-md-7" id="hover">
+                    <div class="text-img">
+                       <figure><img class="imgsize" src="../../images/img2.png" /></figure>
+                    </div>
+                 </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="../../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+		$(".js-select2").each(function(){
+			$(this).on('select2:open', function (e){
+				$(this).parent().next().addClass('eff-focus-selection');
+			});
+		});
+		$(".js-select2").each(function(){
+			$(this).on('select2:close', function (e){
+				$(this).parent().next().removeClass('eff-focus-selection');
+			});
+		});
+
+	</script>
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="../../assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="../../assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="../ecommerce/js/Funcionabilidad.js"></script>
+	<script src="../ecommerce/js/controlador.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
