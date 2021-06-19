@@ -1,9 +1,9 @@
 
 body#LoginForm{ 
     background: hsla(0, 0%, 100%, 1);
-    background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(359, 100%, 80%, 1) 100%);
-    background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(359, 100%, 80%, 1) 100%);
-    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(359, 100%, 80%, 1) 100%);
+    background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(550, 100%, 20%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(550, 100%, 20%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 10%, hsla(550, 100%, 20%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FF999A", GradientType=1 );
     padding-top: 200px;
 }
