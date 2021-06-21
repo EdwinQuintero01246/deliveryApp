@@ -332,7 +332,7 @@ ul.costomer li a {
 }
 
 .text-bg span {
-     color: #00547a;
+     color: #FF9999;
      font-size: 60px;
      line-height: 77px;
      font-weight: bold;
@@ -365,7 +365,7 @@ ul.costomer li a {
 }
 
 .text-bg a:hover {
-     background-color: #00547a;
+     background-color: #FFCCCC;
      color: #880040;
 }
 
@@ -402,7 +402,7 @@ ul.costomer li a {
      width: 120px;
      height: 120px;
      border-radius: 77px;
-     border: #00547a solid 4px;
+     border: #FF9999 solid 4px;
      align-items: center;
      display: flex;
      justify-content: center;
@@ -445,7 +445,7 @@ ul.costomer li a {
 
 .weare {
      margin-top: 70px;
-     background: linear-gradient(135deg,#ffffff,#015f7c);
+     background: linear-gradient(135deg,#ffffff,#FFBBBB);
      font-family: Poppins;
      padding: 80px 0;
      border-bottom-left-radius: 40px;
@@ -492,7 +492,7 @@ ul.costomer li a {
      background: #eff2f8;
  }
  #styleconteinerteam{
-     background: linear-gradient(143deg, #f7feff, #37517e);
+     background: linear-gradient(143deg, #FFF7F7, #ffAAAA);
      padding-top: 15px;
      padding-bottom: 15px;
      border-bottom-left-radius: 25px;
@@ -573,7 +573,7 @@ ul.costomer li a {
 }
 
 .owl-dot.active {
-     background: #00547a !important;
+     background: #E6533F !important;
 }
 
 .item {
@@ -597,14 +597,14 @@ ul.costomer li a {
      font-size: 25px;
      line-height: 29px;
      padding: 10px 10px 10px 10px;
-     color: #00547a;
+     color: #E6533F;
      text-transform: uppercase;
      font-weight: 900;
 }
 
 .item p {
      padding: 0px 10px 10px 10px;
-     color: #00547a;
+     color: #E6533F;
      font-size: 20px;
      font-weight: 900;
 }
@@ -674,7 +674,7 @@ ul.costomer li a {
      cursor: pointer;
      font-size: 30px;
      line-height: 29px;
-     color: #00547a;
+     color: #FF9999;
 }
 
 .asked_main .ask_box {
@@ -685,7 +685,7 @@ ul.costomer li a {
 
 .simpaly {
      padding: 10px 10px 10px 20px;
-     border: #00547a solid 2px;
+     border: #FF9999 solid 2px;
      margin-bottom: 20px;
 }
 
@@ -710,7 +710,7 @@ ul.costomer li a {
      font: 1em 'News Cycle', sans-serif;
      padding: 1%;
 }
-.rosadotext{color: #00547a;}
+.rosadotext{color: #E6533F;}
 
 /** end Asked section **/
 
@@ -765,7 +765,7 @@ ul.costomer li a {
 .contact .main_form .send {
      font-size: 16px;
      transition: ease-in all 0.5s;
-     background-color: #00547a;
+     background-color: #FF9999;
      color: #fff;
      padding: 12px 70px;
      margin: 0 auto;
@@ -773,7 +773,7 @@ ul.costomer li a {
 }
 
 .contact .main_form .send:hover {
-     background-color: #00547a;
+     background-color: #E6533F;
      transition: ease-in all 0.5s;
      color: #fff;
 }
